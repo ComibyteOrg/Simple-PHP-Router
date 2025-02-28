@@ -1,0 +1,135 @@
+@import url(setting.css);
+/* Hero Section styling */
+.hero-container{
+    background: linear-gradient(to left, #000000de, #000000c4), url(../images/jpts5.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--secondary-color) !important;
+    padding-top: 20px;
+  }
+  .hero-container .col-md-5 small{
+    color: var(--light-purple);
+    font-size: 15px !important;
+  }
+  .hero-container .col-md-5 h1{
+    font-size: 60px !important;
+    font-family: Oswald !important;
+  }
+  .hero-container .col-md-5 h1 span{
+    color: var(--light-purple);
+  }
+  .hero-container .col-md-5 p{
+    border-left: 2px solid var(--light-purple);
+    padding: 20px;
+  }
+  .hero-container .col-md-5 a{
+    padding: 20px 40px !important;
+    border-radius: 0 !important;
+    border-color: var(--secondary-color) !important;
+    color: var(--secondary-color);
+    background-color: transparent;
+    margin: 20px 5px;
+    transition: .5s;
+  }
+  .hero-container .col-md-5 a:hover{
+    background-color: var(--secondary-color) !important;
+    color: var(--primary-color) !important;
+    border: 1px solid transparent !important;
+  }
+  
+  
+  /* QUALITY SECTION */
+  .examrule{
+    border-bottom: 2px ridge var(--primary-color);
+    padding: 20px;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    width: 200px;
+  }
+  .examcard img{
+    height: 100%;
+    object-fit: cover;
+  }
+  .examcardtext{
+    height: 120px;
+  }
+  
+  
+  /* Needs Help section */
+  .need-help{
+    background: linear-gradient(to left, #700058ee, #520026e8), url(../images/jpts1.jpg);
+    min-height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .helps{
+    width: 600px;
+    max-width: 90%;
+    margin: 10px auto;
+    color: var(--secondary-color);
+    text-align: center;
+  }
+  .helps h1{
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 70px;
+  }
+  .helps h1 span{
+    color: var(--light-purple);
+  }
+  .helps a {
+    padding: 20px 40px !important;
+    border-radius: 0 !important;
+    border-color: var(--secondary-color) !important;
+    color: var(--secondary-color);
+    background-color: transparent;
+    margin: 20px 5px;
+    transition: .5s;
+  }
+  .helps a:hover{
+    background-color: var(--secondary-color) !important;
+    color: var(--primary-color) !important;
+    border: 1px solid transparent !important;
+  }
+  
+  
+  /* Last section */
+  .lastsection .last-section-img{
+    height: 500px;
+    overflow: hidden;
+    border-radius: 40px;
+  }
+  .lastsection .last-section-img img{
+    height: 100%;
+    width: 100% !important;
+    object-fit: cover;
+    transition: .5s;
+  }
+  .lastsection h1{
+    font-size: 55px !important;
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+  }
+  .lastsection .last-section-img:hover img{
+    transform: scale(1.3);
+    filter: brightness(0.7)
+  }
+  .lastsection a{
+    padding: 20px 40px !important;
+    border-radius: 0 !important;
+    border-color: var(--primary-color) !important;
+    color: var(--primary-color);
+    background-color: transparent;
+    margin: 20px 5px;
+    transition: .5s;
+  }
+  .lastsection a:hover{
+    background-color: var(--primary-color) !important;
+    color: var(--secondary-color) !important;
+    border: 1px solid transparent !important;
+  }  

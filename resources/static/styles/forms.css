@@ -1,0 +1,11 @@
+@import url(setting.css);
+.formContainer{
+    min-height: 80vh !important;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 500px;
+    max-width: 90%;
+}

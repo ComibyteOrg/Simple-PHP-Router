@@ -1,0 +1,64 @@
+:root{
+    --primary-color: #c2004a;
+    --secondary-color: #fff;
+    --black-color: #202020;
+    --light-purple: #ff9bc3;
+}
+@font-face {
+    font-family: Robotto;
+    src: url(../fonts/Roboto/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: Robotto-thin;
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: Robotto-light;
+    src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/poppins/poppins-medium-webfont.ttf);
+}
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+::selection{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+::-moz-selection{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Robotto-thin, Arial;
+    background-color: var(--secondary-color);
+    color: var(--black-color);
+}
+.text-purple{
+    color: var(--primary-color);
+}
+.btn-purple{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: 1px solid transparent;
+    transition: .5s;
+}
+.btn-purple:hover{
+    background-color: transparent;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+/* footer */
+footer{
+    font-family: Robotto-light, Arial, Helvetica, sans-serif;
+}
